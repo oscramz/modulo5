@@ -1,18 +1,38 @@
 #contenedor{
     background-color: rgb(253, 251, 146);
     height: 750px;
-    width: 850px;
-    display: flex;    
+    width: 850px;    
 }
 
 #menu{
     background-color:blanchedalmond;
     height: 750px;
-    width: 300px;
+    width: 296px;
+    display: inline-block;
 }
 
 #contenido{
     background-color:burlywood;
     height: 750px;
     width: 550px;
+    display: inline-block;
+}
+
+#foto{
+    background-color: cadetblue;
+    width: 296;
+    height: 250px;
+
+}
+
+#opciones{
+    background-color:cornflowerblue;
+    width: 296px;
+    height: 400px;
+}
+
+#config{
+    background-color:darkcyan;
+    width: 296;
+    height: 100px;
 }
