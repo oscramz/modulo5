@@ -1,0 +1,18 @@
+#contenedor{
+    background-color: rgb(253, 251, 146);
+    height: 750px;
+    width: 850px;
+    display: flex;    
+}
+
+#menu{
+    background-color:blanchedalmond;
+    height: 750px;
+    width: 300px;
+}
+
+#contenido{
+    background-color:burlywood;
+    height: 750px;
+    width: 550px;
+}
