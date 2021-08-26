@@ -8,8 +8,69 @@
     background-color:blanchedalmond;
     height: 750px;
     width: 296px;
-    display: inline-block;
+    display:inline-block;
+    vertical-align: top;
 }
+
+    #foto{
+        background-color: cadetblue;
+        width: 296px;
+        height: 250px;
+        /*display:inline-block;*/
+        /*vertical-align: top;*/
+    }
+
+        #carnet{
+            background-color:darkseagreen;
+            width: 100px;
+            height: 100px;
+            display:inline-block;
+            vertical-align: top;
+            border-radius:50%;
+            position: relative;
+            top:70px;
+        }
+
+        #nombre{
+            background-color:firebrick;
+            width: 187px;
+            height: 250px;
+            display:inline-block;
+        }
+
+        #nom{
+            position:relative;
+            top: 60px;
+            left: 10px;
+        }
+
+    #opciones{
+        background-color:cornflowerblue; 
+        width: 296px;
+        height: 400px;
+    }
+
+        #opc{
+            height: 50px;
+            text-align:center;
+            border:1px solid black;
+            position:relative;
+            top: 80px;
+        }
+
+    #config{
+        background-color:darkcyan;
+        width: 296;
+        height: 100px;
+    }
+
+        #conf{
+            height: 30px;
+            text-align:center;
+            border:1px solid black;
+            position:relative;
+            top: 35px;
+        }
 
 #contenido{
     background-color:burlywood;
@@ -18,21 +79,3 @@
     display: inline-block;
 }
 
-#foto{
-    background-color: cadetblue;
-    width: 296;
-    height: 250px;
-
-}
-
-#opciones{
-    background-color:cornflowerblue;
-    width: 296px;
-    height: 400px;
-}
-
-#config{
-    background-color:darkcyan;
-    width: 296;
-    height: 100px;
-}
