@@ -82,7 +82,7 @@
     #bloque1, #bloque2, #bloque3, #bloque4{
         height: 180px;
         width:545px;
-        margin: 4px 0px 4px 0px;
+        margin: 2px 0px 2px 0px;
         border:1px solid black;
         display: inline-block;
     }
@@ -116,33 +116,127 @@
             display: inline-block;
         }
         
-        #datos2, #f2a, #f2b {
-            background-color: deepskyblue;
-            height: 168px;
-            width: 150px;
+            #datos2, #f2a, #f2b {
+                background-color: deepskyblue;
+                height: 168px;
+                width: 150px;
+                display: inline-block;
+                padding: 4px;
+                vertical-align: top;
+            }
+
+                #d2f {
+                    background-color:cadetblue;
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50px;
+                    border: 1px black;
+                    position:relative;
+                    top: 8px;
+                    left: 40px;
+                }
+
+            #f2c {
+                background-color: deepskyblue;
+                height: 168px;
+                width: 50px;
+                display: inline-block;
+                padding: 4px;
+            }
+
+                #d2 {
+                    height: 15px;
+                    border: 1px black solid;
+                    margin-top: 3px;
+                    position:relative;
+                    top: 10px;
+                }
+            
+        #datos3, #fotos3 {
             display: inline-block;
-            padding: 4px;
-            vertical-align: top;
         }
 
-        #fotos2 {
+            #datos3 {
+                background-color: deepskyblue;
+                height: 168px;
+                width: 150px;
+                display: inline-block;
+                padding: 4px;
+                vertical-align: top;
+            }
 
-        }
+            #f3a {
+                background-color: deepskyblue;
+                height: 168px;
+                width: 212px;
+                display: inline-block;
+                padding: 4px;
+                vertical-align: top;
+            }
 
-        #f2c {
-            background-color: deepskyblue;
-            height: 168px;
-            width: 50px;
-            display: inline-block;
-            padding: 4px;
-        }
+            #f3b {
+                background-color: deepskyblue;
+                height: 168px;
+                width: 150px;
+                display: inline-block;
+                padding: 4px;
+                vertical-align: top;
+            }
 
-            #d2 {
-                height: 25px;
+            #d3f {
+                background-color:cadetblue;
+                height: 70px;
+                width: 70px;
+                border-radius: 50px;
+                border: 1px black;
+                position:relative;
+                top: 8px;
+                left: 40px;
+            }
+
+            #d3 {
+                height: 8px;
                 border: 1px black solid;
                 margin-top: 3px;
                 position:relative;
                 top: 5px;
             }
-            
-            
+
+            #datos4, #fotos4 {
+                display: inline-block;
+            }
+    
+                #datos4 {
+                    background-color: deepskyblue;
+                    height: 168px;
+                    width: 150px;
+                    display: inline-block;
+                    padding: 4px;
+                    vertical-align: top;
+                }
+    
+                #f4a, #f4b, #f4c, #f4d, #f4e {
+                    background-color: deepskyblue;
+                    height: 168px;
+                    width: 212px;
+                    display: inline-block;
+                    padding: 4px;
+                    vertical-align: top;
+                }
+    
+                #f3b {
+                    background-color: deepskyblue;
+                    height: 168px;
+                    width: 150px;
+                    display: inline-block;
+                    padding: 4px;
+                    vertical-align: top;
+                }
+    
+                #d3 {
+                    height: 25px;
+                    border: 1px black solid;
+                    margin-top: 3px;
+                    position:relative;
+                    top: 5px;
+                }
