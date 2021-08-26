@@ -79,3 +79,70 @@
     display: inline-block;
 }
 
+    #bloque1, #bloque2, #bloque3, #bloque4{
+        height: 180px;
+        width:545px;
+        margin: 4px 0px 4px 0px;
+        border:1px solid black;
+        display: inline-block;
+    }
+
+        #info, #noticias {
+            background-color: deepskyblue;
+            height: 168px;
+            width: 258px;
+            display: inline-block;
+            padding: 6px;
+        }
+
+            #inf {
+                height: 25px;
+                border: 1px black solid;
+                margin-top: 5px;
+                position:relative;
+                top: 50px;
+            }
+
+            #not {
+                height: 25px;
+                border: 1px black solid;
+                margin-top: 5px;
+                position:relative;
+                top: 50px;
+                text-align: right;
+            }
+        
+        #datos2, #fotos2 {
+            display: inline-block;
+        }
+        
+        #datos2, #f2a, #f2b {
+            background-color: deepskyblue;
+            height: 168px;
+            width: 150px;
+            display: inline-block;
+            padding: 4px;
+            vertical-align: top;
+        }
+
+        #fotos2 {
+
+        }
+
+        #f2c {
+            background-color: deepskyblue;
+            height: 168px;
+            width: 50px;
+            display: inline-block;
+            padding: 4px;
+        }
+
+            #d2 {
+                height: 25px;
+                border: 1px black solid;
+                margin-top: 3px;
+                position:relative;
+                top: 5px;
+            }
+            
+            
