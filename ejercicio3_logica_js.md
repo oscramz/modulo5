@@ -37,11 +37,11 @@ Estructura If
 Entendiendo la restructura If
 
 //1. Dado un número b realizar la siguiente operación
-    if(b<10) {
-        return 2;
+    if (b<10) {
+        return 2; // Cuando es verdad
     }
-    else     {
-        return 4;
+    else {
+        return 4; // cuando es falso
     }
     console.log(b);
 Dado dos variables numéricas a y b, deterinar cuál de los dos es mayor
@@ -62,6 +62,18 @@ El usuario debe ingresar su edad y la categoría de la película que desea ver y
 
 Estructura For
 
+Imprimir en consola los números desde el 0 hasta el número n separados por -
+Imprimir en consola los números desde el 0 hasta el -n separados por ;
+Realizar la suma acumulativa de números desde el 0 hasta n y mostrar en consola la suma total con el mensaje "suma total: suma_total"
+Imprimir los números todos los números pares desde el 0 hasta n
+Imprimir los números todos los números impares desde el 0 hasta n
+Realizar el factorial de un número n e imprimirlo en consola
 Estructura While
 
+Utilizando la estructura while y el método prompt(), mostrar los textos ingresados hasta escribir la palabra "salir"
+Dado un número n entre 100 y 500, restar 1 si es número impar y dividir entre dos si es par. Realizar esta operación hasta n sea menor o igual a 0. Imprimir en consola todas las operaciones
+Dado un número n entre 100 y 500, restar 1 si es número impar y dividir entre dos si es par. Mostrar en consola la cantidad de operaciones realizadas.
+Sumar números ingresados con el método prompt() hasta que se ingrese el número -1. Mostrar en consola la suma total
 Funciones y fetch (ajax|api)
+
+Utilizando el método fetch, realizar la búsqueda de un pokemon utilizando Pokeapi. Mostrar el resultado de la información en consola como el número del pokemon, el nombre y un ataque.
