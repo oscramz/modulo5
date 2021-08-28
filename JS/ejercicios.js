@@ -74,3 +74,11 @@ if (i == 1) {
 }else{
     console.log("El usuario no existe")
 }
+
+/*let usuarios = [usuario1, usuario2, usuario3, usuario4, usuario5, usuario6, usuario7, usuario8]
+
+if(i <= usuarios.length) {​​​
+console.log("Hola con arreglo, " + usuarios[i-1].nombre +" "+ usuarios[i-1].apellido)
+}​​​else{​​​
+console.log("Usuario no registrado")
+}​*/​​
