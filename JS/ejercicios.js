@@ -53,32 +53,32 @@ let usuario5 = { nombre: "laura", apellido: "quintanilla" }
 let usuario6 = { nombre: "camila", apellido: "lopez" }
 let usuario7 = { nombre: "carlos", apellido: "gutierrez" }
 let usuario8 = { nombre: "sergio", apellido: "chacon" }
-i = 5
+w = 5
 
-if (i == 1) {
+if (w == 1) {
     console.log("Hola, " + usuario1.nombre +" "+ usuario1.apellido)
-}else if(i == 2){
+}else if(w == 2){
     console.log("Hola, " + usuario2.nombre +" "+ usuario2.apellido)
-}else if(i == 3){
+}else if(w == 3){
     console.log("Hola, " + usuario3.nombre +" "+ usuario3.apellido)
-}else if(i == 4){
+}else if(w == 4){
     console.log("Hola, " + usuario4.nombre +" "+ usuario4.apellido)
-}else if(i == 5){
+}else if(w == 5){
     console.log("Hola, " + usuario5.nombre +" "+ usuario5.apellido)
-}else if(i == 6){
+}else if(w == 6){
     console.log("Hola, " + usuario6.nombre +" "+ usuario6.apellido)
-}else if(i == 7){
+}else if(w == 7){
     console.log("Hola, " + usuario7.nombre +" "+ usuario7.apellido)
-}else if(i == 8){
+}else if(w == 8){
     console.log("Hola, " + usuario8.nombre +" "+ usuario8.apellido)
 }else{
     console.log("El usuario no existe")
 }
 
-/*let usuarios = [usuario1, usuario2, usuario3, usuario4, usuario5, usuario6, usuario7, usuario8]
+let usuarios = [usuario1, usuario2, usuario3, usuario4, usuario5, usuario6, usuario7, usuario8]
 
-if(i <= usuarios.length) {​​​
-console.log("Hola con arreglo, " + usuarios[i-1].nombre +" "+ usuarios[i-1].apellido)
+if(w <= usuarios.length) {​​​
+    console.log("Hola con arreglo, " + usuarios[w-1].nombre +" "+ usuarios[w-1].apellido)
 }​​​else{​​​
 console.log("Usuario no registrado")
-}​*/​​
+}​​
